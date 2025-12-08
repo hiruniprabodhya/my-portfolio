@@ -9,18 +9,25 @@ export const certificatesData = [
     link: 'https://www.linkedin.com/posts/hiruniprabodhya_getting-started-with-cisco-packet-tracer-ugcPost-7403668614207225858-QTXQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQXFk0BwzhzhEd5LzxnHNHbjFzBoTL409I',
   },
   {
-    image: '/placeholder.svg',
+    image: 'img/ui-ux-certificate.png',
     title: 'UI/UX for Beginners',
     issuer: 'Great Learning Academy',
     color: 'from-accent to-teal-500',
-    link: '#',
+    link: 'https://www.linkedin.com/posts/hiruniprabodhya_greatlearningacademy-greatlearning-glacertificate-activity-7216013979482021888-d4pV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
   {
-    image: '/placeholder.svg',
+    image: 'img/windowsnet-certificate.png',
     title: 'Windows Networking',
     issuer: 'Udemy',
     color: 'from-purple-500 to-pink-500',
-    link: '#',
+    link: 'https://www.linkedin.com/posts/hiruniprabodhya_windows-networking-activity-7403672334257094656-0rug?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
+  },
+  {
+    image: 'img/codequest-certificate.png',
+    title: 'CodeQuest Initial Round',
+    issuer: 'IEEE UCSC',
+    color: 'from-purple-500 to-pink-500',
+    link: 'https://www.linkedin.com/posts/hiruniprabodhya_codequest2025-ieeeucsc-cybersecurity-activity-7354048904629223426-G2su?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
 ];
 
@@ -44,6 +51,6 @@ export const badgesData = [
     title: 'CodeQuest Initial Round',
     issuer: 'IEEE UCSC',
     color: 'from-red-500 to-pink-600',
-    link: '#',
+    link: 'https://www.linkedin.com/posts/hiruniprabodhya_codequest2025-ieeeucsc-cybersecurity-activity-7354048904629223426-G2su?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
 ];
