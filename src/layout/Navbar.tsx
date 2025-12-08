@@ -79,7 +79,7 @@ export default function Navbar() {
               </a>
             ))}
             <Button variant="gradient" className="mt-2" asChild>
-              <a href="/resume/Hiruni-Prabodhya.pdf" download="Hiruni-Prabodhya.pdf" onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="/resume/Hiruni Prabodhya.pdf" download="Hiruni Prabodhya.pdf" onClick={() => setIsMobileMenuOpen(false)}>
                 My Resume
               </a>
             </Button>
