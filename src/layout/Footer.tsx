@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/hiruniprabodhya"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full glass hover:bg-primary/20 transition-colors"
@@ -38,8 +38,8 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            © {currentYear} Hiruni Prabodhya. Made with{' '}
-            <Heart size={14} className="text-primary fill-primary" />
+            © {currentYear} Hiruni Prabodhya.
+            
           </p>
         </div>
       </div>
