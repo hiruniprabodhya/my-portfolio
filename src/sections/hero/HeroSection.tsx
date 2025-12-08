@@ -76,7 +76,7 @@ export default function HeroSection() {
             {/* Social Icons */}
             <div className="flex items-center gap-4 justify-center lg:justify-start animate-fade-in" style={{ animationDelay: '0.8s' }}>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/hiruniprabodhya"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full glass hover:bg-primary/20 hover:border-primary/40 transition-all duration-300 group"
