@@ -51,7 +51,7 @@ export default function Navbar() {
 
         <div className="hidden md:block">
           <Button variant="gradient" size="sm" asChild>
-            <a href="/resume/Hiruni-Prabodhya.pdf" download="Hiruni-Prabodhya.pdf">My Resume</a>
+            <a href="/resume/Hiruni Prabodhya.pdf" download="Hiruni Prabodhya.pdf">My Resume</a>
           </Button>
         </div>
 
