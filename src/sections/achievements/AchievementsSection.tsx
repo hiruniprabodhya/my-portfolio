@@ -1,5 +1,5 @@
 import { ExternalLink } from 'lucide-react';
-import { certificatesData, badgesData } from './achievementsData';
+import { certificatesData } from './achievementsData';
 import {
   Carousel,
   CarouselContent,

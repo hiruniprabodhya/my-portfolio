@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiruni Prabodhya | Networking & Cloud Technology Enthusiast</title>
+    <meta name="description" content="Portfolio of Hiruni Prabodhya - Motivated networking and cloud technology enthusiast building secure and efficient IT solutions. Undergraduate in Network Technology." />
+    <meta name="author" content="Hiruni Prabodhya" />
+    <meta name="keywords" content="networking, cloud engineering, IT infrastructure, system administration, portfolio, Sri Lanka" />
+
+    <meta property="og:title" content="Hiruni Prabodhya | Networking & Cloud Technology Enthusiast" />
+    <meta property="og:description" content="Motivated networking and cloud technology enthusiast building secure and efficient IT solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/logo.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hiruni Prabodhya | Portfolio" />
+    <meta name="twitter:description" content="Networking and Cloud Technology Enthusiast" />
+    <meta name="twitter:image" content="/img/logo.png" />
+    
+    <link rel="canonical" href="/" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
