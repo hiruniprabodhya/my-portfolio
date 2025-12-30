@@ -81,31 +81,6 @@ export default function AchievementsSection() {
             </Carousel>
           </div>
         </div>
-
-        {/* Digital Badges Section */}
-        <div>
-          <h3 className="text-2xl font-bold mb-8 text-center flex items-center justify-center gap-3">
-            <span className="w-8 h-1 bg-accent rounded-full"></span>
-            Digital Badges
-            <span className="w-8 h-1 bg-accent rounded-full"></span>
-          </h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {badgesData.map((badge, index) => (
-              <div
-                key={badge.title}
-                className="group glass-card p-6 text-center hover-glow hover:-translate-y-2 transition-all duration-300"
-              >
-                <div className={`w-20 h-20 mx-auto rounded-full bg-gradient-to-br ${badge.color} p-1 mb-4 group-hover:rotate-12 transition-transform duration-300`}>
-                  <div className="w-full h-full rounded-full bg-background/90 backdrop-blur-sm flex items-center justify-center border-2 border-transparent group-hover:border-primary/20 transition-colors">
-                    <badge.icon className={`text-transparent bg-clip-text bg-gradient-to-br ${badge.color}`} size={32} />
-                  </div>
-                </div>
-                <h4 className="font-display font-semibold mb-1 text-base">{badge.title}</h4>
-                <p className="text-xs text-muted-foreground">{badge.issuer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
