@@ -29,7 +29,7 @@ export const projectsData = [
   },
   {
     title: 'Dynamic Routing Configuration',
-    type: 'Personal Project',
+    type: 'Networking Project',
     description:
       'Cisco Packet Tracer dynamic routing lab by configuring and verifying EIGRP on a multi-router network, strengthening skills in IP addressing, routing, and network troubleshooting.',
     technologies: ['Cisco Packet Tracer', 'EIGRP'],
@@ -41,17 +41,17 @@ export const projectsData = [
     sourceLink: 'https://www.linkedin.com/posts/hiruniprabodhya_networking-eigrp-ciscopackettracer-activity-7414901322707197952-1Do7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
   {
-    title: 'Task Management App',
-    type: 'Personal Project',
+    title: 'Secure Switching and Layer 2 Network Security Implementation',
+    type: 'Networking Project',
     description:
-      'Productivity application for managing daily tasks with drag-and-drop functionality and progress tracking.',
-    technologies: ['Vue.js', 'Firebase', 'Tailwind'],
+      'Secure Switching and Layer 2 Network Security lab by implementing switch hardening, port security, DHCP snooping and Rapid PVST to enhance network security and stability.',
+    technologies: ['Cisco Packet Tracer', 'VLANs','Port Security'],
     icon: Package,
-    image: '/img/project-img.png',
+    image: '/img/secure switching-pro.jpeg',
     gradient: 'from-green-400 via-emerald-500 to-teal-600',
-    githubLink: 'https://github.com/yourusername/task-manager',
+    githubLink: '',
     liveLink: '',
-    sourceLink: '',
+    sourceLink: 'https://www.linkedin.com/posts/hiruniprabodhya_network-enterprisenetwork-security-activity-7411743239990501376-FePK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
   {
     title: 'Weather Dashboard',
