@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExternalLink, Github, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ExternalLink, Github, ChevronLeft, ChevronRight, Link } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { projectsData } from './projectsData';
 
@@ -77,6 +77,17 @@ export default function ProjectsSection() {
 
                 {/* Actions */}
                 <div className="flex gap-3">
+                  {project.sourceLink && (
+                    <Button 
+                      variant="glass" 
+                      size="sm" 
+                      className="gap-2"
+                      onClick={() => window.open(project.sourceLink, '_blank')}
+                    >
+                      <Link size={16} />
+                      Source
+                    </Button>
+                  )}
                   {project.githubLink && (
                     <Button 
                       variant="glass" 

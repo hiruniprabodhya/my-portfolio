@@ -12,6 +12,7 @@ export const projectsData = [
     gradient: 'from-primary via-blue-500 to-cyan-500',
     githubLink: 'https://github.com/hiruniprabodhya/smart-postal-managment-system',
     liveLink: 'https://smart-postal-managment-system.vercel.app',
+    sourceLink: '',
   },
   {
     title: 'Portfolio Website',
@@ -24,6 +25,7 @@ export const projectsData = [
     gradient: 'from-accent via-teal-500 to-emerald-500',
     githubLink: 'https://github.com/hiruniprabodhya/my-portfolio',
     liveLink: 'https://www.hiruniprabodhya.me/',
+    sourceLink: '',
   },
   {
     title: 'E-Commerce Platform',
@@ -36,6 +38,7 @@ export const projectsData = [
     gradient: 'from-purple-500 via-pink-500 to-red-500',
     githubLink: 'https://github.com/yourusername/ecommerce',
     liveLink: '',
+    sourceLink: '',
   },
   {
     title: 'Task Management App',
@@ -48,6 +51,7 @@ export const projectsData = [
     gradient: 'from-green-400 via-emerald-500 to-teal-600',
     githubLink: 'https://github.com/yourusername/task-manager',
     liveLink: '',
+    sourceLink: '',
   },
   {
     title: 'Weather Dashboard',
@@ -60,6 +64,7 @@ export const projectsData = [
     gradient: 'from-blue-400 via-indigo-500 to-violet-600',
     githubLink: 'https://github.com/yourusername/weather-app',
     liveLink: '',
+    sourceLink: '',
   },
 
 ];
