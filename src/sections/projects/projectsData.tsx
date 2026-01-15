@@ -28,17 +28,17 @@ export const projectsData = [
     sourceLink: '',
   },
   {
-    title: 'E-Commerce Platform',
+    title: 'Dynamic Routing Configuration',
     type: 'Personal Project',
     description:
-      'A full-featured e-commerce platform with product management, shopping cart, and secure checkout integration.',
-    technologies: ['React', 'Redux', 'Firebase'],
+      'Cisco Packet Tracer dynamic routing lab by configuring and verifying EIGRP on a multi-router network, strengthening skills in IP addressing, routing, and network troubleshooting.',
+    technologies: ['Cisco Packet Tracer', 'EIGRP'],
     icon: Globe,
-    image: '/img/project-img.png',
+    image: '/img/dynamic roting-pro.png',
     gradient: 'from-purple-500 via-pink-500 to-red-500',
-    githubLink: 'https://github.com/yourusername/ecommerce',
+    githubLink: '',
     liveLink: '',
-    sourceLink: '',
+    sourceLink: 'https://www.linkedin.com/posts/hiruniprabodhya_networking-eigrp-ciscopackettracer-activity-7414901322707197952-1Do7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
   {
     title: 'Task Management App',
