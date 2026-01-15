@@ -23,7 +23,7 @@ export const projectsData = [
     image: '/img/portfolio-project.png',
     gradient: 'from-accent via-teal-500 to-emerald-500',
     githubLink: 'https://github.com/hiruniprabodhya/my-portfolio',
-    liveLink: 'https://www.hiruniprabodhya.me',
+    liveLink: 'https://www.hiruniprabodhya.me/',
   },
   {
     title: 'E-Commerce Platform',
