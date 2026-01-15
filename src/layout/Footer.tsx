@@ -8,9 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <a href="#home" className="font-display text-2xl font-bold gradient-text">
-            HP
-          </a>
+          <img src="/img/hp-logo.png" alt="HP Logo" className="h-8" />
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
