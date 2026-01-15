@@ -10,7 +10,7 @@ export const projectsData = [
     icon: Package,
     image: '/img/group-project.png',
     gradient: 'from-primary via-blue-500 to-cyan-500',
-    githubLink: 'https://github.com/yourusername/postal-delivery-system',
+    githubLink: 'https://github.com/hiruniprabodhya/smart-postal-managment-system',
     liveLink: 'https://smart-postal-managment-system.vercel.app',
   },
   {
@@ -22,8 +22,8 @@ export const projectsData = [
     icon: Globe,
     image: '/img/portfolio-project.png',
     gradient: 'from-accent via-teal-500 to-emerald-500',
-    githubLink: 'https://github.com/yourusername/portfolio',
-    liveLink: '',
+    githubLink: 'https://github.com/hiruniprabodhya/my-portfolio',
+    liveLink: 'www.hiruniprabodhya.me',
   },
   {
     title: 'E-Commerce Platform',
