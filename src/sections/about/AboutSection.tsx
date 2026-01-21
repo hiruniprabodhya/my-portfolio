@@ -1,4 +1,4 @@
-import { Users, Clock, Award, MessageCircle, Brain, Globe } from 'lucide-react';
+import { Users, Clock, Award, MessageCircle, Brain, Globe, Briefcase } from 'lucide-react';
 
 const softSkills = [
   { icon: Users, label: 'Teamwork' },
@@ -6,6 +6,7 @@ const softSkills = [
   { icon: Award, label: 'Leadership' },
   { icon: MessageCircle, label: 'Effective Communication' },
   { icon: Brain, label: 'Critical Thinking' },
+  { icon: Briefcase, label: 'Business Minded' },
 ];
 
 const languages = [
@@ -34,10 +35,10 @@ export default function AboutSection() {
             <div className="glass-card p-8 hover-glow">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 A detail-oriented undergraduate with strong skills in{' '}
-                <span className="text-foreground font-medium">networking</span>,{' '}
-                <span className="text-foreground font-medium">system administration</span>,{' '}
-                <span className="text-foreground font-medium">cloud technologies</span>, and{' '}
-                <span className="text-foreground font-medium">IT infrastructure</span>. Passionate about creating 
+                <span className="text-foreground font-medium">Networking</span>,{' '}
+                <span className="text-foreground font-medium">System Administration</span>,{' '}
+                <span className="text-foreground font-medium">Cloud Technologies</span>, and{' '}
+                <span className="text-foreground font-medium">IT Infrastructure</span>. Passionate about creating 
                 high-performance and secure network solutions that drive organizational efficiency.
               </p>
             </div>

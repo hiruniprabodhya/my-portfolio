@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone, ArrowDown } from 'lucide-react';
+import { Linkedin, Mail, Phone, ArrowDown, Github, Facebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function HeroSection() {
@@ -60,7 +60,7 @@ export default function HeroSection() {
             </h2>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              Motivated networking and cloud technology enthusiast building secure and efficient IT solutions.
+              Motivated Networking and Cloud Technology enthusiast building secure and efficient IT solutions.
             </p>
 
             {/* CTAs */}
@@ -90,10 +90,20 @@ export default function HeroSection() {
                 <Mail size={20} className="text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
               <a
-                href="tel:+94705965899"
+                href="https://github.com/hiruniprabodhya"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-3 rounded-full glass hover:bg-primary/20 hover:border-primary/40 transition-all duration-300 group"
               >
-                <Phone size={20} className="text-muted-foreground group-hover:text-primary transition-colors" />
+                <Github size={20} className="text-muted-foreground group-hover:text-primary transition-colors" />
+              </a>
+              <a
+                href="https://www.facebook.com/hiruni.prabodhya.987966/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 rounded-full glass hover:bg-primary/20 hover:border-primary/40 transition-all duration-300 group"
+              >
+                <Facebook size={20} className="text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
             </div>
           </div>

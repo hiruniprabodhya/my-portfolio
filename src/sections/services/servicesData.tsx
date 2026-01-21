@@ -19,6 +19,6 @@ export const servicesData = [
   {
     icon: Code,
     title: 'Frontend & Backend Development',
-    description: 'Building applications with HTML, CSS, JavaScript, Python, Java, C++, and SQL.',
+    description: 'Building applications with HTML, CSS, JavaScript, Python, Java, C++, PHP, and SQL.',
   },
 ];

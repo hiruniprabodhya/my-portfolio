@@ -18,7 +18,7 @@ export default function ExperienceSection() {
 
         <div className="max-w-3xl mx-auto">
           {experienceData.map((exp) => (
-            <div key={exp.title} className="glass-card p-8 hover-glow">
+            <div key={exp.title} className="glass-card p-8 hover-glow mb-6">
               <div className="flex flex-col md:flex-row md:items-start gap-6">
                 {/* Image */}
                 <div className="w-16 h-16 rounded-2xl overflow-hidden flex-shrink-0 bg-white">

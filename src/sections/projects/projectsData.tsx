@@ -19,7 +19,7 @@ export const projectsData = [
     type: 'Personal Project',
     description:
       'Responsive portfolio website showcasing skills and projects with smooth navigation and adaptive layouts across all devices.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
     icon: Globe,
     image: '/img/portfolio-project.png',
     gradient: 'from-accent via-teal-500 to-emerald-500',

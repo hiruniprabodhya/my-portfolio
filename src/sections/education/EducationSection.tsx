@@ -47,7 +47,7 @@ export default function EducationSection() {
                   <div className="flex-1">
                     <h3 className="font-display text-base font-semibold mb-0.5">{edu.degree}</h3>
                     <p className="text-primary text-xs mb-1">{edu.specialization}</p>
-                    <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+                    <div className="flex flex-col gap-1 text-xs text-muted-foreground">
                       <div className="flex items-center gap-1.5">
                         <MapPin size={12} />
                         {edu.institution}
@@ -58,7 +58,7 @@ export default function EducationSection() {
                       </div>
                     </div>
                   </div>
-                  <span className="hidden sm:inline-block px-2.5 py-0.5 rounded-full bg-primary/10 text-primary text-[10px] font-medium whitespace-nowrap self-start mt-1">
+                  <span className="hidden sm:inline-block px-2.5 py-0.5 rounded-full bg-primary/10 text-primary text-xs font-medium whitespace-nowrap self-start mt-1">
                     {edu.status}
                   </span>
                 </div>

@@ -15,9 +15,12 @@ export default function VolunteeringSection() {
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {volunteeringData.map((vol, index) => (
-            <div
+            <a
               key={vol.role}
-              className="group glass-card p-6 hover-glow transition-all duration-300 relative overflow-hidden"
+              href={vol.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group glass-card p-6 hover-glow transition-all duration-300 relative overflow-hidden cursor-pointer"
             >
               {/* Gradient accent */}
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -28,7 +31,7 @@ export default function VolunteeringSection() {
               <h3 className="font-display font-semibold mb-1">{vol.role}</h3>
               <p className="text-primary text-sm mb-3">{vol.organization}</p>
               <p className="text-sm text-muted-foreground">{vol.description}</p>
-            </div>
+            </a>
           ))}
         </div>
       </div>

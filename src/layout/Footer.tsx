@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone, Heart } from 'lucide-react';
+import { Linkedin, Mail, Heart, Github, Facebook } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -27,10 +27,20 @@ export default function Footer() {
               <Mail size={18} className="text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
-              href="tel:+94705965899"
+              href="https://github.com/hiruniprabodhya"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-2 rounded-full glass hover:bg-primary/20 transition-colors"
             >
-              <Phone size={18} className="text-muted-foreground hover:text-primary transition-colors" />
+              <Github size={18} className="text-muted-foreground hover:text-primary transition-colors" />
+            </a>
+            <a
+              href="https://www.facebook.com/hiruni.prabodhya.987966/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full glass hover:bg-primary/20 transition-colors"
+            >
+              <Facebook size={18} className="text-muted-foreground hover:text-primary transition-colors" />
             </a>
           </div>
 

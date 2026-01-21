@@ -2,6 +2,12 @@ import { Code, BadgeCheck, Medal } from 'lucide-react';
 
 export const certificatesData = [
   {
+    image: 'img/cybersecurity-certi.png',
+    title: 'Introduction to Cybersecurity',
+    issuer: 'Cisco Networking Academy',
+    color: 'from-purple-500 to-pink-500',
+    link: 'https://www.linkedin.com/posts/hiruniprabodhya_introduction-to-cybersecurity-activity-7404847194425430018-LY8X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
+  },{
     image: 'img/pkt-certificate.jpg',
     title: 'Getting Started with Cisco Packet Tracer',
     issuer: 'University of Moratuwa',
@@ -29,13 +35,7 @@ export const certificatesData = [
     color: 'from-purple-500 to-pink-500',
     link: 'https://www.linkedin.com/posts/hiruniprabodhya_codequest2025-ieeeucsc-cybersecurity-activity-7354048904629223426-G2su?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
-    {
-    image: 'img/cybersecurity-certi.png',
-    title: 'Introduction to Cybersecurity',
-    issuer: 'Cisco Networking Academy',
-    color: 'from-purple-500 to-pink-500',
-    link: 'https://www.linkedin.com/posts/hiruniprabodhya_introduction-to-cybersecurity-activity-7404847194425430018-LY8X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
-  },
+  
 ];
 
 export const badgesData = [

@@ -5,12 +5,21 @@ import { projectsData } from './projectsData';
 
 export default function ProjectsSection() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedType, setSelectedType] = useState('All');
   const projectsPerPage = 4;
   
-  const totalPages = Math.ceil(projectsData.length / projectsPerPage);
+  // Get unique project types
+  const projectTypes = ['All', ...new Set(projectsData.map(p => p.type))];
+  
+  // Filter projects based on selected type
+  const filteredProjects = selectedType === 'All' 
+    ? projectsData 
+    : projectsData.filter(p => p.type === selectedType);
+  
+  const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
   const startIndex = (currentPage - 1) * projectsPerPage;
   const endIndex = startIndex + projectsPerPage;
-  const currentProjects = projectsData.slice(startIndex, endIndex);
+  const currentProjects = filteredProjects.slice(startIndex, endIndex);
 
   const goToNextPage = () => {
     setCurrentPage((prev) => Math.min(prev + 1, totalPages));
@@ -18,6 +27,11 @@ export default function ProjectsSection() {
 
   const goToPreviousPage = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 1));
+  };
+
+  const handleTypeChange = (type: string) => {
+    setSelectedType(type);
+    setCurrentPage(1);
   };
 
   return (
@@ -35,6 +49,23 @@ export default function ProjectsSection() {
           <p className="text-muted-foreground max-w-2xl mx-auto">
             A selection of projects that showcase my skills and passion for building solutions.
           </p>
+        </div>
+
+        {/* Project Type Filter */}
+        <div className="flex flex-wrap gap-3 justify-center mb-12">
+          {projectTypes.map((type) => (
+            <button
+              key={type}
+              onClick={() => handleTypeChange(type)}
+              className={`px-6 py-2 rounded-full font-medium transition-all ${
+                selectedType === type
+                  ? 'bg-gradient-primary text-primary-foreground'
+                  : 'glass hover:bg-secondary hover:border-primary/30'
+              }`}
+            >
+              {type}
+            </button>
+          ))}
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 mb-12">

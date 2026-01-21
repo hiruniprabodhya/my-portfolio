@@ -14,7 +14,7 @@ export const educationData = [
     degree: 'CCNA Reading (200-301)',
     specialization: 'Certification Course',
     institution: 'University of Moratuwa',
-    period: '2025 - present',
+    period: '2025 -present',
     status: 'Ongoing',
     icon: GraduationCap,
     image: '/img/uom.jpg',
