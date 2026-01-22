@@ -54,17 +54,17 @@ export const projectsData = [
     sourceLink: 'https://www.linkedin.com/posts/hiruniprabodhya_network-enterprisenetwork-security-activity-7411743239990501376-FePK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
   {
-    title: 'Weather Dashboard',
-    type: 'Personal Project',
+    title: 'Home Wireless Network Setup and Configuration',
+    type: 'Networking Project',
     description:
-      'Real-time weather dashboard providing current conditions and forecasts for multiple cities using OpenWeatherMap API.',
-    technologies: ['React', 'TypeScript', 'API Integration'],
+      'Home Wireless Network Setup and Configuration lab by configuring a wireless network with SSID, security settings, and DHCP to provide reliable internet access for multiple devices.',
+    technologies: ['Cisco Packet Tracer', 'Wireless Networking'],
     icon: Globe,
-    image: '/img/project-img.png',
+    image: '/img/wireless network -pro.png',
     gradient: 'from-blue-400 via-indigo-500 to-violet-600',
-    githubLink: 'https://github.com/yourusername/weather-app',
+    githubLink: '',
     liveLink: '',
-    sourceLink: '',
+    sourceLink: 'https://www.linkedin.com/posts/hiruniprabodhya_ciscopackettracer-networking-wirelessnetworking-activity-7411367967227211776-bp0K?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1p1gIBFsDxZOuHVlsWXBXiINplvWaOM5I',
   },
 
 ];
